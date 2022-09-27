@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import Image from "next/image";
 
-const LogoContainer = styled.div``;
+const LogoContainer = styled.div`
+  margin-right: 32px;
+`;
 
 const Logo = () => {
   return (

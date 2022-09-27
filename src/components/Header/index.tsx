@@ -1,24 +1,29 @@
 import React from "react";
 import styled from "styled-components";
+import Wrapper from "../Wrapper";
 import SearchBar from "./SearchBar";
 import Logo from "./Logo";
 import Button from "../Button";
 
-const Container = styled.header`
+const HeaderContainer = styled.header`
   align-items: center;
   background-color: #ffffff;
   display: flex;
+  justify-content: space-between;
   height: 115px;
+  padding: 0 152px;
   width: 100vw;
 `;
 
 const Header = () => {
   return (
-    <Container>
-      <Logo />
-      <SearchBar />
+    <HeaderContainer>
+      <Wrapper>
+        <Logo />
+        <SearchBar />
+      </Wrapper>
       <Button>Login</Button>
-    </Container>
+    </HeaderContainer>
   );
 };
 
