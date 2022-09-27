@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import Wrapper from "../Wrapper";
 import SearchBar from "./SearchBar";
@@ -22,7 +21,7 @@ const Header = () => {
         <Logo />
         <SearchBar />
       </Wrapper>
-      <Button>Login</Button>
+      <Button primary={true}>Login</Button>
     </HeaderContainer>
   );
 };

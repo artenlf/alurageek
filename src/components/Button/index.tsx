@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
-const Button = styled.button`
-  background-color: #ffffff;
-  border: 1px solid #2a7ae4;
-  color: #2a7ae4;
+interface Props {
+  primary: boolean;
+}
+
+const Button = styled.button<Props>`
+  background-color: ${(p) => (p.primary ? "#ffffff" : "#2a7ae4")};
+  border: 1px solid ${(p) => (p.primary ? "#2a7ae4" : "#ffffff")};
+  color: ${(p) => (p.primary ? "#2a7ae4" : "#ffffff")};
   font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
