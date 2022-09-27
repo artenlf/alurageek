@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Wrapper from "../Wrapper";
+import Product from "./Product";
 import TitleRow from "./TitleRow";
 
 const GridContainer = styled.div`
@@ -16,6 +17,7 @@ const Grid = () => {
     <Wrapper>
       <GridContainer>
         <TitleRow />
+        <Product />
       </GridContainer>
     </Wrapper>
   );
