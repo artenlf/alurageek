@@ -7,7 +7,7 @@ const GridContainer = styled.div`
   background-color: white; //delete this line
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  margin: 0 auto;
+  margin: 64px auto;
   height: 306px;
   width: 1136px;
 `;
