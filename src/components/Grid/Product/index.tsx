@@ -1,5 +1,8 @@
 import styled from "styled-components";
 import Image from "next/image";
+import product from "./product.json";
+
+type Props = typeof product[0];
 
 const ProductWrapper = styled.div`
   margin-top: 16px;
@@ -25,12 +28,13 @@ const ProductLink = styled.a`
   font-weight: 700;
 `;
 
-const Product = () => {
+const Product = (props: Props) => {
+  const { picture, title, price } = props;
   return (
     <ProductWrapper>
-      <Image src="/grogu.png" alt="" height={"176px"} width={"174px"} />
-      <ProductTitle>Grogu</ProductTitle>
-      <ProductPrice>R$ 99,90</ProductPrice>
+      <Image src={picture} alt={title} height={"176px"} width={"174px"} />
+      <ProductTitle>{title}</ProductTitle>
+      <ProductPrice>R$ {price}</ProductPrice>
       <ProductLink href="#">Ver produto</ProductLink>
     </ProductWrapper>
   );

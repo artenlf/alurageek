@@ -1,6 +1,8 @@
 import { FiArrowRight } from "react-icons/fi";
 import styled from "styled-components";
-import Wrapper from "../../Wrapper";
+import product from "../Product/product.json";
+
+type Props = typeof product[0];
 
 const TitleRowWrapper = styled.div`
   align-items: center;
@@ -26,9 +28,10 @@ const Link = styled.a`
 `;
 
 const TitleRow = () => {
+  // const { category } = props;
   return (
     <TitleRowWrapper>
-      <Title>StarWars</Title>
+      <Title></Title>
       <Link>
         Ver Tudo <FiArrowRight size={24} style={{ marginLeft: "8px" }} />
       </Link>

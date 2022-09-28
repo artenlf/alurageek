@@ -22,7 +22,7 @@
 {
     "title": "Boneco Kylo Ren",
     "price": 189.90,
-    "picture": "/kyle.png",
+    "picture": "/kylo.png",
     "id": 3,
     "category": {
         "id": 1,
