@@ -1,0 +1,182 @@
+[
+{
+        "title": "Réplica Grogu",
+        "price": 99.90,
+        "picture": "/grogu.png",
+        "id": 1,
+        "category": {
+            "id": 1,
+            "label": "Star Wars"
+        }
+},
+{
+    "title": "Boneco Stormtrooper",
+        "price": 199.90,
+        "picture": "/stormtrooper.png",
+        "id": 2,
+        "category": {
+            "id": 1,
+            "label": "Star Wars"
+        }
+},
+{
+    "title": "Boneco Kylo Ren",
+    "price": 189.90,
+    "picture": "/kyle.png",
+    "id": 3,
+    "category": {
+        "id": 1,
+        "label": "Star Wars"
+    }
+},
+{
+"title": "Caneca Stormtrooper",
+    "price": 189.90,
+    "picture": "/cup.png",
+    "id": 4,
+    "category": {
+        "id": 1,
+        "label": "Star Wars"
+    }
+},
+{
+    "title": "Yoda em cerâmica",
+    "price": 114.90,
+    "picture": "/yoda.png",
+    "id": 5,
+    "category": {
+        "id": 1,
+        "label": "Star Wars"
+    }
+},
+{
+"title": "Bustos Lego Star Wars",
+    "price": 79.90,
+    "picture": "/lego.png",
+    "id": 6,
+    "category": {
+        "id": 1,
+        "label": "Star Wars"
+    }
+},
+{
+    "title": "PlayStation 5",
+    "price": 3999.90,
+    "picture": "/ps5.png",
+    "id": 7,
+    "category": {
+        "id": 2,
+        "label": "Consoles"
+    }
+},
+{
+"title": "Controle Xbox One S",
+    "price": 299.90,
+    "picture": "/xboxc.png",
+    "id": 8,
+    "category": {
+        "id": 2,
+        "label": "Consoles"
+    }
+},
+{
+"title": "Nintendo ES",
+"price": 799.90,
+"picture": "/nes.png",
+"id": 9,
+"category": {
+    "id": 2,
+    "label": "Consoles"
+}
+},
+{
+"title": "Xbox One X",
+"price": 4459.90,
+"picture": "/xboxonex.png",
+"id": 10,
+"category": {
+    "id": 2,
+    "label": "Consoles"
+}
+},
+{
+"title": "Game Boy",
+"price": 399.90,
+"picture": "/gameboy.png",
+"id": 11,
+"category": {
+    "id": 2,
+    "label": "Consoles"
+}
+},
+{
+"title": "Joycons Switch",
+"price": 159.90,
+"picture": "/joycons.png",
+"id": 12,
+"category": {
+    "id": 2,
+    "label": "Consoles"
+}
+},
+{
+    "title": "Camiseta Atari",
+    "price": 49.90,
+    "picture": "/ataritee.png",
+    "id": 13,
+    "category": {
+        "id": 3,
+        "label": "Diversos"
+    }
+},
+{
+"title": "Camiseta NES",
+    "price": 49.90,
+    "picture": "/nestee.png",
+    "id": 14,
+    "category": {
+        "id": 3,
+        "label": "Diversos"
+    }
+},
+{
+"title": "Pelúcia Pikachu",
+"price": 89.90,
+"picture": "/pikachu.png",
+"id": 15,
+"category": {
+    "id": 3,
+    "label": "Diversos"
+}
+},
+{
+"title": "Miniatura Sonic",
+"price": 42.90,
+"picture": "/sonic.png",
+"id": 16,
+"category": {
+    "id": 3,
+    "label": "Diversos"
+}
+},
+{
+"title": "Relógio Retrô",
+"price": 69.90,
+"picture": "/clock.png",
+"id": 17,
+"category": {
+    "id": 3,
+    "label": "Diversos"
+}
+},
+{
+"title": "PlayStation VR",
+"price": 2799.90,
+"picture": "/psvr.png",
+"id": 18,
+"category": {
+    "id": 3,
+    "label": "Diversos"
+}
+}
+]
