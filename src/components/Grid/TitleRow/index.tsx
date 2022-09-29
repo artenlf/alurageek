@@ -27,11 +27,11 @@ const Link = styled.a`
   font-weight: 700;
 `;
 
-const TitleRow = () => {
-  // const { category } = props;
+const TitleRow = (props: Props) => {
+  const { category } = props;
   return (
     <TitleRowWrapper>
-      <Title></Title>
+      <Title>{category}</Title>
       <Link>
         Ver Tudo <FiArrowRight size={24} style={{ marginLeft: "8px" }} />
       </Link>

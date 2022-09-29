@@ -29,11 +29,11 @@ const ProductLink = styled.a`
 `;
 
 const Product = (props: Props) => {
-  const { picture, title, price } = props;
+  const { picture, name, price } = props;
   return (
     <ProductWrapper>
-      <Image src={picture} alt={title} height={"176px"} width={"174px"} />
-      <ProductTitle>{title}</ProductTitle>
+      <Image src={picture} alt={name} height={"176px"} width={"174px"} />
+      <ProductTitle>{name}</ProductTitle>
       <ProductPrice>R$ {price}</ProductPrice>
       <ProductLink href="#">Ver produto</ProductLink>
     </ProductWrapper>
