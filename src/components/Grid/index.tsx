@@ -12,6 +12,7 @@ const GridContainer = styled.div`
   margin: 64px auto;
   height: 306px;
   width: 1136px;
+  z-index: 2;
 `;
 
 let listOfCategories = product.map((item) => item.category);
