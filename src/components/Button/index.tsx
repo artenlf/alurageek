@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 interface Props {
   primary: boolean;
+  formSubmit: boolean;
 }
 
 const Button = styled.button<Props>`
@@ -15,7 +16,7 @@ const Button = styled.button<Props>`
   font-weight: 400;
   justify-content: center;
   height: 51px;
-  width: ${(p) => (p.primary ? "182px" : "130px")};
+  width: ${(p) => (p.primary ? "182px" : p.formSubmit ? "182px" : "130px")};
 `;
 
 export default Button;
