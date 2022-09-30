@@ -14,7 +14,7 @@ const Title = styled.h3`
 `;
 
 const Input = styled(TextField)`
-  box-shadow: 1px 1px 1px 1px #0000001f;
+  box-shadow: 2px 2px 4px #0000001f;
   background-color: white;
   border-radius: 4px;
   margin: 8px auto;
