@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import Logo from "../../Logo";
-import Wrapper from "../Wrapper";
+import Logo from "../Logo";
 
 const FooterSection = styled.section`
   align-items: center;
