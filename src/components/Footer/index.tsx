@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Logo from "../Logo";
+import LinkList from "./LinkList";
 
 const FooterSection = styled.section`
   align-items: center;
@@ -14,6 +15,8 @@ const FooterSection = styled.section`
 `;
 
 const FooterContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
   height: 240px;
   width: 1136px;
 `;
@@ -39,6 +42,7 @@ const Footer = () => {
       <FooterSection>
         <FooterContainer>
           <Logo />
+          <LinkList />
         </FooterContainer>
       </FooterSection>
       <FooterDeveloper>Desenvolvido por artenlf 2022</FooterDeveloper>
