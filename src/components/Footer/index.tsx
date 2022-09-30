@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Logo from "../Logo";
+import ContactForm from "./ContactForm";
 import LinkList from "./LinkList";
 
 const FooterSection = styled.section`
@@ -43,6 +44,7 @@ const Footer = () => {
         <FooterContainer>
           <Logo />
           <LinkList />
+          <ContactForm />
         </FooterContainer>
       </FooterSection>
       <FooterDeveloper>Desenvolvido por artenlf 2022</FooterDeveloper>
