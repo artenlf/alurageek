@@ -17,6 +17,10 @@ const Button = styled.button<Props>`
   justify-content: center;
   height: 51px;
   width: ${(p) => (p.primary ? "182px" : p.formSubmit ? "182px" : "130px")};
+  :hover {
+    cursor: pointer;
+    background-color: ${(p) => (p.primary ? "#d6d6d6" : "#4b7bbb")};
+  }
 `;
 
 export default Button;
