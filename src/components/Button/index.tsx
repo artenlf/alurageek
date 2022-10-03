@@ -16,10 +16,12 @@ const Button = styled.button<Props>`
   font-weight: 400;
   justify-content: center;
   height: 51px;
+  transition: 0.3s;
   width: ${(p) => (p.primary ? "182px" : p.formSubmit ? "182px" : "130px")};
   :hover {
     cursor: pointer;
-    background-color: ${(p) => (p.primary ? "#d6d6d6" : "#4b7bbb")};
+    font-weight: 600;
+    transform: scale(110%);
   }
 `;
 

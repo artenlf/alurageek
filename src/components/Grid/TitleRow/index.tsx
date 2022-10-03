@@ -25,6 +25,10 @@ const Link = styled.a`
   display: flex;
   font-size: 16px;
   font-weight: 700;
+  transition: 0.3s;
+  :hover {
+    transform: scale(110%);
+  }
 `;
 
 const TitleRow = (props: Props) => {
@@ -32,7 +36,7 @@ const TitleRow = (props: Props) => {
   return (
     <TitleRowWrapper>
       <Title>{category}</Title>
-      <Link>
+      <Link href="#">
         Ver Tudo <FiArrowRight size={24} style={{ marginLeft: "8px" }} />
       </Link>
     </TitleRowWrapper>

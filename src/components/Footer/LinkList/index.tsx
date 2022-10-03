@@ -10,6 +10,10 @@ const Link = styled.a`
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 24px;
+  transition: 0.3s;
+  :hover {
+    transform: scale(110%);
+  }
 `;
 
 const linkArray = [
@@ -25,7 +29,9 @@ const LinkList = () => {
   return (
     <LinkContainer>
       {linkArray.map((link, index) => (
-        <Link key={index}>{link}</Link>
+        <Link key={index} href="#">
+          {link}
+        </Link>
       ))}
     </LinkContainer>
   );

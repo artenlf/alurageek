@@ -26,6 +26,10 @@ const ProductLink = styled.a`
   color: #2a7ae4;
   font-size: 16px;
   font-weight: 700;
+  transition: 0.3s;
+  :hover {
+    opacity: 0.6;
+  }
 `;
 
 const Product = (props: Props) => {
