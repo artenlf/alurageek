@@ -6,12 +6,13 @@ import Button from "../Button";
 
 const HeaderContainer = styled.header`
   align-items: center;
+  box-sizing: border-box;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   height: 115px;
   padding: 0 152px;
-  width: 100vw;
+  width: 100%;
 `;
 
 const Header = () => {
@@ -21,7 +22,9 @@ const Header = () => {
         <Logo />
         <SearchBar />
       </Wrapper>
-      <Button primary={true}>Login</Button>
+      <Button primary={true} formSubmit={false}>
+        Login
+      </Button>
     </HeaderContainer>
   );
 };

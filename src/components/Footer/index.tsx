@@ -11,7 +11,7 @@ const FooterSection = styled.section`
   height: 470px;
   position: relative;
   top: 602px;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
 `;
 
@@ -33,7 +33,7 @@ const FooterDeveloper = styled.p`
   margin: 0;
   position: relative;
   top: 602px;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
 `;
 
