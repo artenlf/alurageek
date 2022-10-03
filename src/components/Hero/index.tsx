@@ -3,7 +3,7 @@ import Banner from "./Content";
 
 const HeroContainer = styled.section`
   align-items: flex-end;
-  background-image: url("/banner-image.png");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("/banner-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
