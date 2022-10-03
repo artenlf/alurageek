@@ -1,6 +1,13 @@
 import styled from "styled-components";
 import TextField from "@mui/material/TextField";
 import Button from "../../Button";
+import { ThemeProvider, createTheme, withTheme } from "@mui/material/styles";
+
+const theme = createTheme({
+  typography: {
+    fontFamily: "Raleway",
+  },
+});
 
 const ContactContainer = styled.div`
   width: 560px;
@@ -26,8 +33,10 @@ const ContactForm = () => {
     <>
       <ContactContainer>
         <Title>Fale conosco</Title>
-        <Input label="Nome" required variant="outlined" />
-        <Input label="Escreva sua mensagem" required variant="outlined" multiline minRows={3} />
+        <ThemeProvider theme={theme}>
+          <Input label="Nome" required variant="outlined" />
+          <Input label="Escreva sua mensagem" required variant="outlined" multiline minRows={3} />
+        </ThemeProvider>
         <Button primary={false} formSubmit type="submit">
           Enviar mensagem
         </Button>
