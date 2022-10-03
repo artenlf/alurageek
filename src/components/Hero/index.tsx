@@ -4,7 +4,8 @@ import Banner from "./Content";
 const HeroContainer = styled.section`
   align-items: flex-end;
   background-image: url("/banner-image.png");
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  background-size: cover;
   box-sizing: border-box;
   display: flex;
   height: 352px;

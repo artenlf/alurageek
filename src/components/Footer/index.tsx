@@ -9,8 +9,6 @@ const FooterSection = styled.section`
   display: flex;
   justify-content: center;
   height: 470px;
-  position: relative;
-  top: 602px;
   width: 100%;
   z-index: 1;
 `;
@@ -31,8 +29,6 @@ const FooterDeveloper = styled.p`
   justify-content: center;
   height: 102px;
   margin: 0;
-  position: relative;
-  top: 602px;
   width: 100%;
   z-index: 1;
 `;

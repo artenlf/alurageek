@@ -10,13 +10,13 @@ const TitleRowWrapper = styled.div`
   grid-column: span 6;
   justify-content: space-between;
   height: 38px;
+  margin-top: 64px;
 `;
 
 const Title = styled.h3`
   color: #464646;
   font-size: 32px;
   font-weight: 700;
-  margin: 0;
 `;
 
 const Link = styled.a`

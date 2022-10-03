@@ -9,8 +9,8 @@ type Props = typeof product[0];
 const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  margin: 64px auto;
-  height: 306px;
+  height: 100%;
+  margin: 0 auto 64px;
   width: 1136px;
   z-index: 2;
 `;
@@ -20,24 +20,22 @@ listOfCategories = listOfCategories.filter((v, i) => listOfCategories.indexOf(v)
 
 const Grid = () => {
   return (
-    <Wrapper>
-      <GridContainer>
-        <>
-          {listOfCategories.map((cat, index) => (
+    <GridContainer>
+      <>
+        {listOfCategories.map((cat, index) => (
+          <>
+            <TitleRow key={index} category={cat} name={""} price={0} picture={""} id={0} />
             <>
-              <TitleRow key={index} category={cat} name={""} price={0} picture={""} id={0} />
-              <>
-                {product
-                  .filter((item) => item.category === cat)
-                  .map((item, index) => (
-                    <Product key={index} id={item.id} name={item.name} price={item.price} picture={item.picture} category={item.category} />
-                  ))}
-              </>
+              {product
+                .filter((item) => item.category === cat)
+                .map((item, index) => (
+                  <Product key={index} id={item.id} name={item.name} price={item.price} picture={item.picture} category={item.category} />
+                ))}
             </>
-          ))}
-        </>
-      </GridContainer>
-    </Wrapper>
+          </>
+        ))}
+      </>
+    </GridContainer>
   );
 };
 
