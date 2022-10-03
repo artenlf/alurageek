@@ -20,7 +20,9 @@ const Banner = () => {
     <BannerWrapper>
       <BannerTitle>Dezembro promocional</BannerTitle>
       <BannerSubtitle>Produtos selecionados com 33% de desconto</BannerSubtitle>
-      <Button primary={false}>Ver Consoles</Button>
+      <Button primary={false} formSubmit={false}>
+        Ver Consoles
+      </Button>
     </BannerWrapper>
   );
 };
