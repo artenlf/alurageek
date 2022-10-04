@@ -1,6 +1,7 @@
 import { FiArrowRight } from "react-icons/fi";
 import styled from "styled-components";
-import product from "../Product/product.json";
+import Title from "../../../Title";
+import product from "../Product/products.json";
 
 type Props = typeof product[0];
 
@@ -11,12 +12,6 @@ const TitleRowWrapper = styled.div`
   justify-content: space-between;
   height: 38px;
   margin-top: 64px;
-`;
-
-const Title = styled.h3`
-  color: #464646;
-  font-size: 32px;
-  font-weight: 700;
 `;
 
 const Link = styled.a`
