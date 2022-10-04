@@ -1,128 +1,128 @@
 [
   {
+    "id": 1,
     "name": "Réplica Grogu",
     "price": 99.9,
     "picture": "/grogu.png",
-    "id": 1,
     "category": "Star Wars"
   },
   {
+    "id": 2,
     "name": "Boneco Stormtrooper",
     "price": 199.9,
     "picture": "/stormtrooper.png",
-    "id": 2,
     "category": "Star Wars"
   },
   {
+    "id": 3,
     "name": "Boneco Kylo Ren",
     "price": 189.9,
     "picture": "/kylo.png",
-    "id": 3,
     "category": "Star Wars"
   },
   {
+    "id": 4,
     "name": "Caneca Stormtrooper",
     "price": 189.9,
     "picture": "/cup.png",
-    "id": 4,
     "category": "Star Wars"
   },
   {
+    "id": 5,
     "name": "Yoda em cerâmica",
     "price": 114.9,
     "picture": "/yoda.png",
-    "id": 5,
     "category": "Star Wars"
   },
   {
+    "id": 6,
     "name": "Bustos Lego Star Wars",
     "price": 79.9,
     "picture": "/lego.png",
-    "id": 6,
     "category": "Star Wars"
   },
   {
+    "id": 7,
     "name": "PlayStation 5",
     "price": 3999.9,
     "picture": "/ps5.png",
-    "id": 7,
     "category": "Consoles"
   },
   {
+    "id": 8,
     "name": "Controle Xbox One S",
     "price": 299.9,
     "picture": "/xboxc.png",
-    "id": 8,
     "category": "Consoles"
   },
   {
+    "id": 9,
     "name": "Nintendo ES",
     "price": 799.9,
     "picture": "/nes.png",
-    "id": 9,
     "category": "Consoles"
   },
   {
+    "id": 10,
     "name": "Xbox One X",
     "price": 4459.9,
     "picture": "/xboxonex.png",
-    "id": 10,
     "category": "Consoles"
   },
   {
+    "id": 11,
     "name": "Game Boy",
     "price": 399.9,
     "picture": "/gameboy.png",
-    "id": 11,
     "category": "Consoles"
   },
   {
+    "id": 12,
     "name": "Joycons Switch",
     "price": 159.9,
     "picture": "/joycons.png",
-    "id": 12,
     "category": "Consoles"
   },
   {
+    "id": 13,
     "name": "Camiseta Atari",
     "price": 49.9,
     "picture": "/ataritee.png",
-    "id": 13,
     "category": "Diversos"
   },
   {
+    "id": 14,
     "name": "Camiseta NES",
     "price": 49.9,
     "picture": "/nestee.png",
-    "id": 14,
     "category": "Diversos"
   },
   {
+    "id": 15,
     "name": "Pelúcia Pikachu",
     "price": 89.9,
     "picture": "/pikachu.png",
-    "id": 15,
     "category": "Diversos"
   },
   {
+    "id": 16,
     "name": "Miniatura Sonic",
     "price": 42.9,
     "picture": "/sonic.png",
-    "id": 16,
     "category": "Diversos"
   },
   {
+    "id": 17,
     "name": "Relógio Retrô",
     "price": 69.9,
     "picture": "/clock.png",
-    "id": 17,
     "category": "Diversos"
   },
   {
+    "id": 18,
     "name": "PlayStation VR",
     "price": 2799.9,
     "picture": "/psvr.png",
-    "id": 18,
     "category": "Diversos"
   }
 ]

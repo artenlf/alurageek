@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
-import product from "./product.json";
+import product from "./products.json";
 
 type Props = typeof product[0];
 
