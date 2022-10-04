@@ -22,7 +22,7 @@ const Header = () => {
         <Logo />
         <SearchBar />
       </Wrapper>
-      <Button primary={true} formSubmit={false}>
+      <Button primary={true} formSubmit={false} fullWidth={false}>
         Login
       </Button>
     </HeaderContainer>
