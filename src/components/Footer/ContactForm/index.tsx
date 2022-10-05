@@ -3,23 +3,17 @@ import Button from "../../Button";
 import { ThemeProvider } from "@mui/material/styles";
 import muiTheme from "../../../styles/muiTheme";
 import TextFieldInput from "../../TextField";
+import { Title16 } from "../../Title";
 
 const ContactContainer = styled.div`
   width: 560px;
-`;
-
-const Title = styled.h3`
-  color: #464646;
-  font-size: 16px;
-  font-weight: 700;
-  margin: 0;
 `;
 
 const ContactForm = () => {
   return (
     <>
       <ContactContainer>
-        <Title>Fale conosco</Title>
+        <Title16>Fale conosco</Title16>
         <ThemeProvider theme={muiTheme}>
           <TextFieldInput label="Nome" required variant="outlined" />
           <TextFieldInput
