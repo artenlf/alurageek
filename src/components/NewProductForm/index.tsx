@@ -2,7 +2,7 @@ import { Title } from "../Title";
 import Button from "../Button";
 import TextFieldInput from "../TextField";
 import FormSection from "../FormSection";
-import FormContainer from "../Containers";
+import FormContainer from "../Containers/FormContainer";
 
 const formLabels = [
   "URL da imagem",
