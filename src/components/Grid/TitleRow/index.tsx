@@ -1,7 +1,6 @@
 import { FiArrowRight } from "react-icons/fi";
 import styled from "styled-components";
 import { Title } from "../../Title";
-import product from "../Product/products.json";
 
 interface Props {
   category: string;
