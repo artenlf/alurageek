@@ -27,6 +27,7 @@ const Grid = () => {
                 price={item.price}
                 picture={item.picture}
                 category={item.category}
+                productsSection={false}
               />
             ))}
         </Fragment>
