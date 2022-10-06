@@ -1,7 +1,7 @@
 import { Title } from "../Title";
 import Button from "../Button";
 import TextFieldInput from "../TextField";
-import FormSection from "../FormSection";
+import GreySection from "../GreySection";
 import FormContainer from "../Containers/FormContainer";
 
 const formLabels = [
@@ -14,7 +14,7 @@ const formLabels = [
 const NewProductForm = () => {
   return (
     <>
-      <FormSection>
+      <GreySection>
         <FormContainer>
           <Title>Adicionar novo produto</Title>
           {formLabels.map((label, index) => (
@@ -37,7 +37,7 @@ const NewProductForm = () => {
             Adicionar produto
           </Button>
         </FormContainer>
-      </FormSection>
+      </GreySection>
     </>
   );
 };
