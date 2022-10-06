@@ -1,6 +1,6 @@
 import Button from "../Button";
 import LoginFormContainer from "../Containers/LoginFormContainer";
-import FormSection from "../FormSection";
+import GreySection from "../GreySection";
 import TextFieldInput from "../TextField";
 import { Title18 } from "../Title";
 
@@ -9,7 +9,7 @@ const formLabels = ["Digite seu e-mail", "Digite sua senha"];
 const LoginForm = () => {
   return (
     <>
-      <FormSection>
+      <GreySection>
         <LoginFormContainer>
           <Title18>Iniciar Sessão</Title18>
           {formLabels.map((label, index) => (
@@ -24,7 +24,7 @@ const LoginForm = () => {
             Entrar
           </Button>
         </LoginFormContainer>
-      </FormSection>
+      </GreySection>
     </>
   );
 };
