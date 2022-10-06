@@ -1,5 +1,5 @@
 import Product from "./Product";
-import TitleRow from "./TitleRow";
+import TitleRow from "./CategoryRow";
 import product from "./Product/products.json";
 import GridContainer from "./style";
 import { Fragment } from "react";

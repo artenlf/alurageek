@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import Head from "next/head";
 import Footer from "../components/Footer";
-import AllProductsGrid from "../components/Grid/AllProducts";
+import AllProductsGrid from "../components/ProductsGrids/AllProducts";
 import Header from "../components/Header";
 
 const Products: NextPage = () => {
