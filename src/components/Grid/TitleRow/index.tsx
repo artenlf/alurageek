@@ -3,7 +3,9 @@ import styled from "styled-components";
 import { Title } from "../../Title";
 import product from "../Product/products.json";
 
-type Props = typeof product[0];
+interface Props {
+  category: string;
+}
 
 const TitleRowWrapper = styled.div`
   align-items: center;

@@ -16,7 +16,7 @@ const Grid = () => {
     <GridContainer>
       {listOfCategories.map((cat, index) => (
         <Fragment key={index}>
-          <TitleRow category={cat} id={0} name={""} price={0} picture={""} />
+          <TitleRow category={cat} />
           {product
             .filter((item) => item.category === cat)
             .map((item) => (
