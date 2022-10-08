@@ -3,7 +3,7 @@ import * as React from "react";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import {
-  FilledInput,
+  Autocomplete,
   FormControl,
   IconButton,
   InputAdornment,
@@ -60,6 +60,7 @@ const PasswordInput = () => {
         type={values.showPassword ? "text" : "password"}
         value={values.password}
         onChange={handleChange("password")}
+        autoComplete="password"
         endAdornment={
           <InputAdornment position="end">
             <IconButton

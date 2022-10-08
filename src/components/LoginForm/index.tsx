@@ -15,6 +15,7 @@ const LoginForm = () => {
           <TextFieldInput
             label="Digite seu e-mail"
             type="email"
+            autoComplete="email"
             required
             fullWidth
           />
