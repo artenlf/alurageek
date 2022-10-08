@@ -1,10 +1,10 @@
+import * as React from "react";
 import Button from "../Button";
 import LoginFormContainer from "../Containers/LoginFormContainer";
 import GreySection from "../GreySection";
-import TextFieldInput from "../TextField";
+import PasswordInput from "../PasswordField";
+import TextFieldInput from "../TextField/styles";
 import { Title18 } from "../Title";
-
-const formLabels = ["Digite seu e-mail", "Digite sua senha"];
 
 const LoginForm = () => {
   return (
@@ -12,9 +12,13 @@ const LoginForm = () => {
       <GreySection>
         <LoginFormContainer>
           <Title18>Iniciar Sessão</Title18>
-          {formLabels.map((label, index) => (
-            <TextFieldInput key={index} label={label} required />
-          ))}
+          <TextFieldInput
+            label="Digite seu e-mail"
+            type="email"
+            required
+            fullWidth
+          />
+          <PasswordInput />
           <Button
             primary={false}
             formSubmit={true}
