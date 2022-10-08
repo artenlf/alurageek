@@ -5,4 +5,10 @@ const Wrapper = styled.div`
   display: flex;
 `;
 
-export default Wrapper;
+const InlineWrapper = styled.div`
+  align-items: center;
+  display: inline-flexbox;
+  justify-content: space-between;
+`;
+
+export { Wrapper, InlineWrapper };

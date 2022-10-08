@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Wrapper from "../Wrapper";
+import { Wrapper } from "../Wrapper";
 import SearchBar from "./SearchBar";
 import Logo from "../Logo";
 import Button from "../Button";

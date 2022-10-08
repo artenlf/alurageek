@@ -6,7 +6,7 @@ import { Fragment } from "react";
 
 type Props = typeof product[0];
 
-let listOfCategories = product.map((item) => item.category);
+export let listOfCategories = product.map((item) => item.category);
 listOfCategories = listOfCategories.filter(
   (v, i) => listOfCategories.indexOf(v) === i
 );
