@@ -7,14 +7,15 @@ import FormContainer from "../Containers/FormContainer";
 import UploadButton from "../UploadButton";
 import { InlineWrapper } from "../Wrapper";
 import { listOfCategories } from "../ProductsGrids";
-import { Menu, MenuItem } from "@mui/material";
+import { MenuItem } from "@mui/material";
 
 const NewProductForm = () => {
   const [category, setCategory] = React.useState("");
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChangeCategory = (event: React.ChangeEvent<HTMLInputElement>) => {
     setCategory(event.target.value);
   };
+
   return (
     <>
       <GreySection>
@@ -28,7 +29,7 @@ const NewProductForm = () => {
             select
             label="Categoria"
             value={category}
-            onChange={handleChange}
+            onChange={handleChangeCategory}
             fullWidth
           >
             {listOfCategories.map((category) => (
@@ -38,8 +39,13 @@ const NewProductForm = () => {
             ))}
           </TextFieldInput>
           <TextFieldInput label="Nome do Produto" fullWidth />
-          <TextFieldInput label="Preço do Produto" fullWidth />
-          <TextFieldInput label="Descrição do produto" minRows={3} fullWidth />
+          <TextFieldInput label="Preço do Produto" type="number" fullWidth />
+          <TextFieldInput
+            label="Descrição do produto"
+            multiline
+            minRows={3}
+            fullWidth
+          ></TextFieldInput>
 
           <Button
             primary={false}
