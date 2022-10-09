@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Button } from "@mui/material";
 
 interface Props {
   primary: boolean;
@@ -6,7 +7,7 @@ interface Props {
   fullWidth: boolean;
 }
 
-const Button = styled.button<Props>`
+const CustomButton = styled(Button)<Props>`
   align-items: center;
   background-color: ${(p) => (p.primary ? "#ffffff" : "#2a7ae4")};
   border: 1px solid #2a7ae4;
@@ -17,6 +18,7 @@ const Button = styled.button<Props>`
   font-weight: 400;
   justify-content: center;
   height: 51px;
+  text-transform: none;
   transition: 0.3s;
   width: ${(p) =>
     p.primary
@@ -33,4 +35,4 @@ const Button = styled.button<Props>`
   }
 `;
 
-export default Button;
+export default CustomButton;
