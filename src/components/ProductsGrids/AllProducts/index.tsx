@@ -4,12 +4,19 @@ import GridContainer from "../style";
 import product from "../Product/products.json";
 import GreySection from "../../GreySection";
 import FormContainer from "../../Containers/FormContainer";
+import Button from "../../Button";
+import { InlineWrapper } from "../../Wrapper";
 
 const AllProductsGrid = () => {
   return (
     <GreySection>
       <FormContainer>
-        <Title>Todos os produtos</Title>
+        <InlineWrapper>
+          <Title>Todos os produtos</Title>
+          <Button primary={false} formSubmit={true} fullWidth={false}>
+            Adicionar produto
+          </Button>
+        </InlineWrapper>
         <GridContainer>
           {product.map((item) => (
             <Product

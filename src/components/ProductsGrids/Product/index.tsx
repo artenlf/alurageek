@@ -20,7 +20,7 @@ const Product = (props: Props) => {
   const { id, name, picture, price, productsSection } = props;
   return (
     <ProductWrapper>
-      <Image src={picture} alt={name} height={"176px"} width={"174px"} />
+      <Image src={picture} alt={name} height={"174px"} width={"176px"} />
       <ProductTitle>{name}</ProductTitle>
       <ProductPrice>R$ {price}</ProductPrice>
       {productsSection ? (

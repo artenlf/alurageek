@@ -8,14 +8,14 @@ const ProductTitle = styled.h5`
   color: #464646;
   font-size: 14px;
   font-weight: 500;
-  margin: 0;
+  margin: 8px auto 0 auto;
 `;
 
 const ProductPrice = styled.p`
   color: #464646;
   font-size: 16px;
   font-weight: 700;
-  margin: 8px 0;
+  margin: 8px auto 0 auto;
 `;
 
 const ProductLink = styled.a`
@@ -28,9 +28,6 @@ const ProductLink = styled.a`
   }
 `;
 
-const ProductId = styled(ProductPrice)`
-  font-size: 14px;
-  font-weight: 500;
-`;
+const ProductId = styled(ProductTitle)``;
 
 export { ProductWrapper, ProductTitle, ProductPrice, ProductLink, ProductId };
