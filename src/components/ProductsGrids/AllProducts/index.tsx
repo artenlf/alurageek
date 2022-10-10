@@ -1,16 +1,15 @@
 import { Title } from "../../Title";
 import Product from "../Product";
-import GridContainer from "../style";
+import GridContainer from "../styles";
 import product from "../Product/products.json";
 import GreySection from "../../GreySection";
-import FormContainer from "../../Containers/FormContainer";
 import Button from "../../Button";
-import { InlineWrapper } from "../../Wrapper";
+import { GridWrapper, InlineWrapper } from "../../Wrapper";
 
 const AllProductsGrid = () => {
   return (
     <GreySection>
-      <FormContainer>
+      <GridWrapper>
         <InlineWrapper>
           <Title>Todos os produtos</Title>
           <Button primary={false} formSubmit={true} fullWidth={false}>
@@ -30,7 +29,7 @@ const AllProductsGrid = () => {
             />
           ))}
         </GridContainer>
-      </FormContainer>
+      </GridWrapper>
     </GreySection>
   );
 };
