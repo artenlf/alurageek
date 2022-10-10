@@ -1,6 +1,7 @@
 import { FiArrowRight } from "react-icons/fi";
 import { Title } from "../../Title";
-import { CategoryRowWrapper, Link } from "./styles";
+import { CategoryRowWrapper } from "../../Wrapper";
+import Link from "./styles";
 
 interface Props {
   category: string;

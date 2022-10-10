@@ -5,16 +5,12 @@ const Wrapper = styled.div`
   display: flex;
 `;
 
-const GridWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 64px;
-`;
-
-const InlineWrapper = styled.div`
+const CategoryRowWrapper = styled.div`
   align-items: center;
-  display: inline-flexbox;
+  display: flex;
+  grid-column: span 6;
   justify-content: space-between;
+  height: 38px;
 `;
 
-export { Wrapper, GridWrapper, InlineWrapper };
+export { Wrapper, CategoryRowWrapper };

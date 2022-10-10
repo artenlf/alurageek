@@ -4,6 +4,7 @@ const Title = styled.h2`
   color: #464646;
   font-size: 32px;
   font-weight: 700;
+  margin: 0;
 `;
 
 const Title18 = styled(Title)`

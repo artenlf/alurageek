@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const ProductWrapper = styled.div`
   margin-top: 16px;
+  margin-bottom: 64px;
 `;
 
 const ProductTitle = styled.h5`
