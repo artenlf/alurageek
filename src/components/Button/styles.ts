@@ -1,17 +1,11 @@
 import styled from "styled-components";
 import { Button } from "@mui/material";
 
-interface Props {
-  primary: boolean;
-  formSubmit: boolean;
-  fullWidth: boolean;
-}
-
-const CustomButton = styled(Button)<Props>`
+const CustomButton = styled(Button)`
   align-items: center;
-  background-color: ${(p) => (p.primary ? "#ffffff" : "#2a7ae4")};
+  background-color: #2a7ae4;
   border: 1px solid #2a7ae4;
-  color: ${(p) => (p.primary ? "#2a7ae4" : "#ffffff")};
+  color: #ffffff;
   display: flex;
   font-family: Raleway;
   font-size: 16px;
@@ -20,18 +14,27 @@ const CustomButton = styled(Button)<Props>`
   height: 51px;
   text-transform: none;
   transition: 0.3s;
-  width: ${(p) =>
-    p.primary
-      ? "182px"
-      : p.fullWidth
-      ? "560px"
-      : p.formSubmit
-      ? "182px"
-      : "130px"};
+  width: 182px;
   :hover {
     cursor: pointer;
     font-weight: 600;
     transform: scale(110%);
+  }
+  &.white {
+    background-color: #ffffff;
+    color: #2a7ae4;
+  }
+  &.small {
+    width: 130px;
+  }
+  &.full-width {
+    width: 100%;
+  }
+  &.margin-top {
+    margin-top: 8px;
+  }
+  &.add-product {
+    width: 176px;
   }
 `;
 

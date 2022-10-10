@@ -1,13 +1,9 @@
-import styled from "styled-components";
-import Button from "../../Button";
+import Button from "../../Button/styles";
 import { ThemeProvider } from "@mui/material/styles";
 import muiTheme from "../../../styles/muiTheme";
 import TextFieldInput from "../../TextField/styles";
 import { Title16 } from "../../Title";
-
-const ContactContainer = styled.div`
-  width: 560px;
-`;
+import ContactContainer from "./styles";
 
 const ContactForm = () => {
   return (
@@ -25,9 +21,7 @@ const ContactForm = () => {
             fullWidth
           />
         </ThemeProvider>
-        <Button primary={false} formSubmit fullWidth={false} type="submit">
-          Enviar mensagem
-        </Button>
+        <Button type="submit">Enviar mensagem</Button>
       </ContactContainer>
     </>
   );

@@ -1,8 +1,8 @@
 import * as React from "react";
-import Button from "../Button";
-import LoginFormContainer from "../Containers/LoginFormContainer";
+import Button from "../Button/styles";
+import LoginFormContainer from "./styles";
 import GreySection from "../GreySection";
-import PasswordInput from "../PasswordField";
+import PasswordInput from "./PasswordField";
 import TextFieldInput from "../TextField/styles";
 import { Title18 } from "../Title";
 
@@ -20,12 +20,7 @@ const LoginForm = () => {
             fullWidth
           />
           <PasswordInput />
-          <Button
-            primary={false}
-            formSubmit={true}
-            fullWidth={true}
-            type="submit"
-          >
+          <Button className="full-width" type="submit">
             Entrar
           </Button>
         </LoginFormContainer>
