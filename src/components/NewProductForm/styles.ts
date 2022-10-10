@@ -5,6 +5,13 @@ const FormContainer = styled.form`
   flex-direction: column;
   margin-top: 32px;
   margin-bottom: 64px;
+  .full-width {
+    width: 559px;
+  }
 `;
 
-export default FormContainer;
+const InlineField = styled.div`
+  display: flexbox;
+`;
+
+export { FormContainer, InlineField };

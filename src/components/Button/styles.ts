@@ -5,6 +5,8 @@ const CustomButton = styled(Button)`
   align-items: center;
   background-color: #2a7ae4;
   border: 1px solid #2a7ae4;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
   color: #ffffff;
   display: flex;
   font-family: Raleway;
@@ -13,16 +15,18 @@ const CustomButton = styled(Button)`
   justify-content: center;
   height: 51px;
   text-transform: none;
-  transition: 0.3s;
   width: 182px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   :hover {
-    cursor: pointer;
+    background-color: #2163ba;
     font-weight: 600;
-    transform: scale(110%);
   }
   &.white {
     background-color: #ffffff;
     color: #2a7ae4;
+    :hover {
+      background-color: #e9e9e9;
+    }
   }
   &.small {
     width: 130px;

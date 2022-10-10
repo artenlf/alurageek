@@ -1,11 +1,10 @@
 import React from "react";
 import { Title } from "../Title";
-import Button from "../Button";
+import Button from "../Button/styles";
 import TextFieldInput from "../TextField/styles";
 import GreySection from "../GreySection";
-import FormContainer from "../Containers/FormContainer";
+import { FormContainer, InlineField } from "./styles";
 import UploadButton from "../UploadButton";
-import { InlineWrapper } from "../Wrapper";
 import { listOfCategories } from "../ProductsGrids";
 import { MenuItem } from "@mui/material";
 
@@ -19,12 +18,10 @@ const NewProductForm = () => {
   return (
     <>
       <GreySection>
-        <FormContainer>
+        <FormContainer className="full-width">
           <Title>Adicionar novo produto</Title>
-          <InlineWrapper>
-            <TextFieldInput label="URL da imagem" fullWidth />
-            <UploadButton />
-          </InlineWrapper>
+          <TextFieldInput label="URL da imagem" fullWidth />
+          <UploadButton />
           <TextFieldInput
             select
             label="Categoria"
@@ -47,15 +44,7 @@ const NewProductForm = () => {
             fullWidth
           ></TextFieldInput>
 
-          <Button
-            primary={false}
-            formSubmit={true}
-            type="submit"
-            fullWidth={true}
-            style={{ marginTop: "8px" }}
-          >
-            Adicionar produto
-          </Button>
+          <Button className="full-width margin-top">Adicionar produto</Button>
         </FormContainer>
       </GreySection>
     </>
