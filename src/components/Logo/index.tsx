@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
+import Link from "next/link";
 
 const LogoContainer = styled.div`
   margin-right: 32px;
@@ -10,10 +11,16 @@ const LogoContainer = styled.div`
 
 const Logo = () => {
   return (
-    <LogoContainer>
-      <Image src="/Logo.svg" alt="Logo da AluraGeek" width={176} height={50} />
-      <a href="#"></a>
-    </LogoContainer>
+    <Link href="/">
+      <LogoContainer>
+        <Image
+          src="/Logo.svg"
+          alt="Logo da AluraGeek"
+          width={176}
+          height={50}
+        />
+      </LogoContainer>
+    </Link>
   );
 };
 

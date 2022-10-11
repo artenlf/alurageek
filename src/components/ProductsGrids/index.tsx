@@ -3,7 +3,7 @@ import TitleRow from "./CategoryRow";
 import product from "./Product/products.json";
 import GridContainer from "./styles";
 import { Fragment } from "react";
-import WhiteSection from "../../WhiteSection/styles";
+import WhiteSection from "../WhiteSection/styles";
 
 type Props = typeof product[0];
 

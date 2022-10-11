@@ -9,11 +9,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Wrapper>
-        <Link href="/">
-          <a>
-            <Logo />
-          </a>
-        </Link>
+        <Logo />
         <SearchBar />
       </Wrapper>
       <Link href="/login">
