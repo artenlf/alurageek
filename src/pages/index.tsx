@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       <Head>
         <title>AluraGeek | Home</title>
       </Head>
-      <Header />
+      <Header showButton home />
       <Hero />
       <Grid />
       <Footer />

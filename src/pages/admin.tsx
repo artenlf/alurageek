@@ -10,7 +10,7 @@ const Admin: NextPage = () => {
       <Head>
         <title>AluraGeek | Admin</title>
       </Head>
-      <Header />
+      <Header showButton home={false} />
       <NewProductForm />
       <Footer />
     </>

@@ -5,16 +5,32 @@ import Button from "../Button/styles";
 import HeaderContainer from "./styles";
 import Link from "next/link";
 
-const Header = () => {
+interface Props {
+  showButton: boolean;
+  home: boolean;
+}
+
+const Header = (props: Props) => {
+  const { showButton, home } = props;
   return (
     <HeaderContainer>
       <Wrapper>
         <Logo />
         <SearchBar />
       </Wrapper>
-      <Link href="/login">
-        <Button className="white">Login</Button>
-      </Link>
+      {showButton ? (
+        home ? (
+          <Link href="/login">
+            <Button className="white">Login</Button>
+          </Link>
+        ) : (
+          <Link href="/products">
+            <Button className="white bold">Menu administrador</Button>
+          </Link>
+        )
+      ) : (
+        ""
+      )}
     </HeaderContainer>
   );
 };

@@ -10,7 +10,7 @@ const Products: NextPage = () => {
       <Head>
         <title>AluraGeek | Produtos</title>
       </Head>
-      <Header />
+      <Header showButton={false} home={false} />
       <AllProductsGrid />
       <Footer />
     </>

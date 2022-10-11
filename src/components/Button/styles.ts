@@ -40,6 +40,12 @@ const CustomButton = styled(Button)`
   &.add-product {
     width: 176px;
   }
+  &.bold {
+    font-weight: 600;
+    :hover {
+      font-weight: 700;
+    }
+  }
 `;
 
 export default CustomButton;

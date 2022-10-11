@@ -10,7 +10,7 @@ const Login: NextPage = () => {
       <Head>
         <title>AluraGeek | Login</title>
       </Head>
-      <Header />
+      <Header showButton={false} home={false} />
       <LoginForm />
       <Footer />
     </>
