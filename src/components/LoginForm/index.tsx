@@ -5,6 +5,7 @@ import GreySection from "../GreySection";
 import PasswordInput from "./PasswordField";
 import TextFieldInput from "../TextField/styles";
 import { Title18 } from "../Title";
+import Link from "next/link";
 
 const LoginForm = () => {
   return (
@@ -20,9 +21,11 @@ const LoginForm = () => {
             fullWidth
           />
           <PasswordInput />
-          <Button className="full-width" type="submit">
-            Entrar
-          </Button>
+          <Link href="/products">
+            <Button className="full-width" type="submit">
+              Entrar
+            </Button>
+          </Link>
         </LoginFormContainer>
       </GreySection>
     </>

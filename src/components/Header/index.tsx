@@ -3,15 +3,22 @@ import SearchBar from "./SearchBar";
 import Logo from "../Logo";
 import Button from "../Button/styles";
 import HeaderContainer from "./styles";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <HeaderContainer>
       <Wrapper>
-        <Logo />
+        <Link href="/">
+          <a>
+            <Logo />
+          </a>
+        </Link>
         <SearchBar />
       </Wrapper>
-      <Button className="white">Login</Button>
+      <Link href="/login">
+        <Button className="white">Login</Button>
+      </Link>
     </HeaderContainer>
   );
 };

@@ -5,6 +5,7 @@ import product from "../Product/products.json";
 import GreySection from "../../GreySection";
 import Button from "../../Button/styles";
 import { CategoryRowWrapper } from "../../Wrapper";
+import Link from "next/link";
 
 const AllProductsGrid = () => {
   return (
@@ -12,7 +13,9 @@ const AllProductsGrid = () => {
       <GridContainer>
         <CategoryRowWrapper>
           <Title>Todos os produtos</Title>
-          <Button className="add-product">Adicionar produto</Button>
+          <Link href="/admin">
+            <Button className="add-product">Adicionar produto</Button>
+          </Link>
         </CategoryRowWrapper>
 
         {product.map((item) => (
