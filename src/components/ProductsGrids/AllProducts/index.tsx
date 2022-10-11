@@ -3,7 +3,7 @@ import Product from "../Product";
 import GridContainer from "../styles";
 import product from "../Product/products.json";
 import GreySection from "../../GreySection";
-import Button from "../../Button/styles";
+import Button from "../../Button";
 import { CategoryRowWrapper } from "../../Wrapper";
 import Link from "next/link";
 

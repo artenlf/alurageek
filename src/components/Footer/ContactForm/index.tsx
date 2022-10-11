@@ -1,7 +1,7 @@
-import Button from "../../Button/styles";
+import Button from "../../Button";
 import { ThemeProvider } from "@mui/material/styles";
 import muiTheme from "../../../styles/muiTheme";
-import TextFieldInput from "../../TextField/styles";
+import TextFieldInput from "../../TextField";
 import { Title16 } from "../../Title";
 import ContactContainer from "./styles";
 

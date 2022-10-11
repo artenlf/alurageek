@@ -1,7 +1,7 @@
 import { Wrapper } from "../Wrapper";
 import SearchBar from "./SearchBar";
 import Logo from "../Logo";
-import Button from "../Button/styles";
+import Button from "../Button";
 import HeaderContainer from "./styles";
 import Link from "next/link";
 

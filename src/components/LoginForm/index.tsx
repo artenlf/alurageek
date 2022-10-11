@@ -1,9 +1,9 @@
 import * as React from "react";
-import Button from "../Button/styles";
+import Button from "../Button";
 import LoginFormContainer from "./styles";
 import GreySection from "../GreySection";
 import PasswordInput from "./PasswordField";
-import TextFieldInput from "../TextField/styles";
+import TextFieldInput from "../TextField";
 import { Title18 } from "../Title";
 import Link from "next/link";
 

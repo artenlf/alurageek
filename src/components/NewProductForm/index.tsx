@@ -1,7 +1,7 @@
 import React from "react";
 import { Title } from "../Title";
-import Button from "../Button/styles";
-import TextFieldInput from "../TextField/styles";
+import Button from "../Button";
+import TextFieldInput from "../TextField";
 import GreySection from "../GreySection";
 import { FormContainer, InlineField } from "./styles";
 import UploadButton from "../UploadButton";
