@@ -13,4 +13,9 @@ const CategoryRowWrapper = styled.div`
   height: 38px;
 `;
 
-export { Wrapper, CategoryRowWrapper };
+const TextFieldWrapper = styled.div`
+  margin: 8px auto;
+  width: 560px;
+`;
+
+export { Wrapper, CategoryRowWrapper, TextFieldWrapper };

@@ -7,6 +7,7 @@ import { FormContainer, InlineField } from "./styles";
 import UploadButton from "../UploadButton";
 import { listOfCategories } from "../ProductsGrids";
 import { MenuItem } from "@mui/material";
+import { TextFieldWrapper } from "../Wrapper";
 
 const NewProductForm = () => {
   const [category, setCategory] = React.useState("");
@@ -20,29 +21,39 @@ const NewProductForm = () => {
       <GreySection>
         <FormContainer className="full-width">
           <Title>Adicionar novo produto</Title>
-          <TextFieldInput label="URL da imagem" fullWidth />
+          <TextFieldWrapper>
+            <TextFieldInput label="URL da imagem" fullWidth />
+          </TextFieldWrapper>
           <UploadButton />
-          <TextFieldInput
-            select
-            label="Categoria"
-            value={category}
-            onChange={handleChangeCategory}
-            fullWidth
-          >
-            {listOfCategories.map((category) => (
-              <MenuItem key={category} value={category}>
-                {category}
-              </MenuItem>
-            ))}
-          </TextFieldInput>
-          <TextFieldInput label="Nome do Produto" fullWidth />
-          <TextFieldInput label="Preço do Produto" type="number" fullWidth />
-          <TextFieldInput
-            label="Descrição do produto"
-            multiline
-            minRows={3}
-            fullWidth
-          ></TextFieldInput>
+          <TextFieldWrapper>
+            <TextFieldInput
+              select
+              label="Categoria"
+              value={category}
+              onChange={handleChangeCategory}
+              fullWidth
+            >
+              {listOfCategories.map((category) => (
+                <MenuItem key={category} value={category}>
+                  {category}
+                </MenuItem>
+              ))}
+            </TextFieldInput>
+          </TextFieldWrapper>
+          <TextFieldWrapper>
+            <TextFieldInput label="Nome do Produto" fullWidth />
+          </TextFieldWrapper>
+          <TextFieldWrapper>
+            <TextFieldInput label="Preço do Produto" type="number" fullWidth />
+          </TextFieldWrapper>
+          <TextFieldWrapper>
+            <TextFieldInput
+              label="Descrição do produto"
+              multiline
+              minRows={3}
+              fullWidth
+            />
+          </TextFieldWrapper>
 
           <CustomButton className="full-width margin-top">
             Adicionar produto
