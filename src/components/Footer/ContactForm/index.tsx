@@ -1,4 +1,4 @@
-import Button from "../../Button";
+import CustomButton from "../../Button";
 import { ThemeProvider } from "@mui/material/styles";
 import muiTheme from "../../../styles/muiTheme";
 import TextFieldInput from "../../TextField";
@@ -21,7 +21,7 @@ const ContactForm = () => {
             fullWidth
           />
         </ThemeProvider>
-        <Button type="submit">Enviar mensagem</Button>
+        <CustomButton type="submit">Enviar mensagem</CustomButton>
       </ContactContainer>
     </>
   );
