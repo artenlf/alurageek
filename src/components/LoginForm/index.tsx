@@ -1,5 +1,5 @@
 import * as React from "react";
-import Button from "../Button";
+import CustomButton from "../Button";
 import LoginFormContainer from "./styles";
 import GreySection from "../GreySection";
 import PasswordInput from "./PasswordField";
@@ -22,9 +22,9 @@ const LoginForm = () => {
           />
           <PasswordInput />
           <Link href="/products">
-            <Button className="full-width" type="submit">
+            <CustomButton className="full-width" type="submit">
               Entrar
-            </Button>
+            </CustomButton>
           </Link>
         </LoginFormContainer>
       </GreySection>

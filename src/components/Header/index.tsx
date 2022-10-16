@@ -1,7 +1,7 @@
 import { Wrapper } from "../Wrapper";
 import SearchBar from "./SearchBar";
 import Logo from "../Logo";
-import Button from "../Button";
+import CustomButton from "../Button";
 import HeaderContainer from "./styles";
 import Link from "next/link";
 
@@ -21,11 +21,13 @@ const Header = (props: Props) => {
       {showButton ? (
         home ? (
           <Link href="/login">
-            <Button className="white">Login</Button>
+            <CustomButton className="white">Login</CustomButton>
           </Link>
         ) : (
           <Link href="/products">
-            <Button className="white bold">Menu administrador</Button>
+            <CustomButton className="white bold">
+              Menu administrador
+            </CustomButton>
           </Link>
         )
       ) : (

@@ -3,7 +3,7 @@ import Product from "../Product";
 import GridContainer from "../styles";
 import product from "../Product/products.json";
 import GreySection from "../../GreySection";
-import Button from "../../Button";
+import CustomButton from "../../Button";
 import { CategoryRowWrapper } from "../../Wrapper";
 import Link from "next/link";
 
@@ -14,7 +14,9 @@ const AllProductsGrid = () => {
         <CategoryRowWrapper>
           <Title>Todos os produtos</Title>
           <Link href="/admin">
-            <Button className="add-product">Adicionar produto</Button>
+            <CustomButton className="add-product">
+              Adicionar produto
+            </CustomButton>
           </Link>
         </CategoryRowWrapper>
 

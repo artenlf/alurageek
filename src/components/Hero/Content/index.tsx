@@ -1,4 +1,4 @@
-import Button from "../../Button";
+import CustomButton from "../../Button";
 import { BannerSubtitle, BannerTitle, BannerWrapper } from "./styles";
 
 const Banner = () => {
@@ -6,7 +6,7 @@ const Banner = () => {
     <BannerWrapper>
       <BannerTitle>Dezembro promocional</BannerTitle>
       <BannerSubtitle>Produtos selecionados com 33% de desconto</BannerSubtitle>
-      <Button className="small">Ver Consoles</Button>
+      <CustomButton className="small">Ver Consoles</CustomButton>
     </BannerWrapper>
   );
 };

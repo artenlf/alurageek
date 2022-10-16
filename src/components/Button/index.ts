@@ -1,7 +1,6 @@
-import { Button } from "@mui/material";
 import styled from "styled-components";
 
-const CustomButton = styled(Button)`
+const CustomButton = styled.button`
   align-items: center;
   background-color: #2a7ae4;
   border: 1px solid #2a7ae4;
