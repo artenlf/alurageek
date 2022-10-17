@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import Button from "@mui/material/Button";
 
-const CustomButton = styled.button`
+export const CustomButton = styled(Button)`
   align-items: center;
   background-color: #2a7ae4;
   border: 1px solid #2a7ae4;
@@ -46,5 +47,3 @@ const CustomButton = styled.button`
     }
   }
 `;
-
-export default CustomButton;

@@ -1,5 +1,5 @@
 import * as React from "react";
-import CustomButton from "../Button";
+import { CustomButton } from "../Button";
 import LoginFormContainer from "./styles";
 import GreySection from "../GreySection";
 import PasswordInput from "./PasswordField";

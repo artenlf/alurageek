@@ -1,4 +1,4 @@
-import CustomButton from "../../Button";
+import { CustomButton } from "../../Button";
 import { ThemeProvider } from "@mui/material/styles";
 import muiTheme from "../../../styles/muiTheme";
 import TextFieldInput from "../../TextField";

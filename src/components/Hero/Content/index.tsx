@@ -1,4 +1,4 @@
-import CustomButton from "../../Button";
+import { CustomButton } from "../../Button";
 import { BannerSubtitle, BannerTitle, BannerWrapper } from "./styles";
 
 const Banner = () => {
