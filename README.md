@@ -4,10 +4,10 @@ Aplicação de e-commerce para uma loja geek.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Alurageekm**
+| :sparkles: Nome        | **Alurageek**
 | :label: Tecnologias | react, styled-components, material UI
 | :rocket: URL         | https://alurageek-gray.vercel.app/
-| :fire: Desafio     | https://www.alura.com.br/curso-online-javascript-web-armazenando-dados-navegador
+| :fire: Desafio     | https://www.figma.com/file/fR9qvy3gU53s2q5efeMpy9/AluraGeek---Challenge?t=n3CyU4fJpLqBYnuh-6
 
 ![](https://github.com/artenlf/alurageek/blob/main/public/screenshots/vitrinedev-banner.png#vitrinedev)
 
@@ -16,7 +16,7 @@ Aplicação de e-commerce para uma loja geek.
 O projeto fez parte do 5º challange Front-End da Alura.
 
 ### Objetivo
-- Construir a aplicação utilizando React e familiarizar conceitos da biblioteca. Foi o primeiro desafio utilizando react e também styled-components para construção da interface e fluxo de interações. Trabalhei também conceitos como métodos de Array e utilização de material UI.
+- Construir a aplicação utilizando React e familiarizar conceitos da biblioteca. Foi o primeiro desafio utilizando react e também styled-components para construção da interface e fluxo de interações. Trabalhei também conceitos como métodos de Array, utilização de material UI e responsividade.
 
 ### Screenshots
 
